@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --mainbackground-color: #d8d8d8;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 192rem;
+  height: 108rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mainbackground-color);
+}
+
+.main-container {
+  width: 116rem;
+  height: 53.8rem;
+  background-color: red;
+}
